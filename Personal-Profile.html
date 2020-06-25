@@ -21,8 +21,8 @@
 <style>
 
 .top-box{
-height: 500px;
-width:  300px;
+height: 385px;
+width:  310px;
 background-color: rgb(213, 209, 235);
 position: relative;
 float: right;
@@ -31,8 +31,8 @@ float: right;
 
 
 .bottom-box{
-height: 300px;
-width:  300px;
+height: 240px;
+width:  310px;
 top: 0px;
 background-color: rgb(188, 181, 231);
 position: relative;
@@ -43,7 +43,7 @@ Float: right;
 img{
   position: absolute;
   left: 42px;
-  top: 60px;
+  top: 30px;
   
 }
 
@@ -51,7 +51,7 @@ img{
   position: relative;
   font-family: monospace;
   text-align: center;
-  top: 325px;
+  top: 290px;
   color: blueviolet;
   width: 300px;
   height:100px;
@@ -61,7 +61,7 @@ img{
   position: relative;
   font-family: monospace;
   text-align: center;
-  top: 237px;
+  top: 202px;
   color: blueviolet;
   width: 300px;
   height:100px;
@@ -70,21 +70,66 @@ img{
 }
 
 #git-icon{
-  left: 50px;
-  top: 75px;
+  left: 40px;
+  top: 110px;
   position:absolute;
+  font-size: 2.5em;
+}
+#mail-icon{
+  left:40px;
+  top:60px;
+  position: absolute;
+  font-size: 2.5em;
+}
+
+#phone-icon{
+  left:40px;
+  top:10px;
+  position: absolute;
+  font-size: 2.5em;
+}
+
+#linkedin-icon{
+  left:40px;
+  top:160px;
+  position: absolute;
+  font-size: 2.5em;
+}
+
+.phone-number{
+  left: 85px;
+  top:7px;
+  position: absolute;
+  font-size: 1.1em;
+}
+
+.email{
+  left: 85px;
+  top:55px;
+  position: absolute;
+  font-size: 1.1em;
+}
+
+.github{
+  left: 85px;
+  top:105px;
+  position: absolute;
+  font-size: 1.1em;
+}
+
+.linkedin{
+  left: 85px;
+  top:151px;
+  position: absolute;
+  font-size: 1.1em;
+}
+
+p{
+  font-family: monospace;
+  font-weight: bold;
 }
 
 </style>
-
-
-
-
-
-
-
-
-
 
 <!-- ---------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------- -->
@@ -107,7 +152,16 @@ img{
 
   <div class="bottom-box">
 
+    <!--Logos-->
     <div><i class="fab fa-github" id="git-icon"></i></div>
+    <div><i class="fas fa-envelope" id="mail-icon"></i></div>
+    <div><i class="fas fa-phone-square" id="phone-icon"></i></div>
+    <div><i class="fab fa-linkedin" id="linkedin-icon"></i></div>
+
+    <div class="phone-number"><p>910-890-7830</p></div>
+    <div class="email"><p>phillipjkinney@gmail.com</p></div>
+    <div class="github"><p>github.com/PhillipKinney</p></div>
+    <div class="linkedin"><p>linkedin.com/in/phillipkinney</p></div>
 
   </div>
 
